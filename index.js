@@ -18,6 +18,7 @@ const token = process.env.TOKEN
 
 require('./global/functions')(bot, utils, ytdl, config);
 
+
 bot.on('error', err => {
  console.log(err);
 });

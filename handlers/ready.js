@@ -5,7 +5,7 @@ module.exports = {
     ready : (bot) => {
         bot.login(token)
         bot.on('ready', () => {
-            bot.user.setActivity('AR Music', {type: 'LISTENING'});
+            bot.user.setActivity('to red heads', {type: 'LISTENING'});
             bot.user.setStatus('dnd');
             console.log('I am ready to play MUSICS!!');
         });
